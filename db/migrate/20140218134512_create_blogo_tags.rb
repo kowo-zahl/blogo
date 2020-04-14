@@ -1,4 +1,4 @@
-class CreateBlogoTags < ActiveRecord::Migration
+class CreateBlogoTags < ActiveRecord::Migration[6.0]
   def change
     tags_table = "#{Blogo.table_name_prefix}tags"
 
